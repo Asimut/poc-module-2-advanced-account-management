@@ -189,36 +189,52 @@ window.CreateBookView = function() {
 			doc.setFontSize(12);
 			// COLUM 2
 			var Rev_1 = currentSection.entries[0].response;
-			Rev_1 = doc.splitTextToSize(Rev_1, 400);
-			doc.text(497, 250, Rev_1);
+			if(Rev_1 != null){
+				Rev_1 = doc.splitTextToSize(Rev_1, 400);
+				doc.text(497, 250, Rev_1);
+			}
 
 			var Rev_2 = currentSection.entries[1].response;
-			Rev_2 = doc.splitTextToSize(Rev_2, 400);
-			doc.text(497, 304, Rev_2);
+			if(Rev_2 != null){
+				Rev_2 = doc.splitTextToSize(Rev_2, 400);
+				doc.text(497, 304, Rev_2);
+			}
 
 			var Rev_3 = currentSection.entries[2].response;
-			Rev_3 = doc.splitTextToSize(Rev_3, 400);
-			doc.text(497, 358, Rev_3);
+			if(Rev_3 != null){
+				Rev_3 = doc.splitTextToSize(Rev_3, 400);
+				doc.text(497, 358, Rev_3);
+			}
 
 			var Rev_4 = currentSection.entries[3].response;
-			Rev_4 = doc.splitTextToSize(Rev_4, 400);
-			doc.text(497, 412, Rev_4);
+			if(Rev_4 != null){
+				Rev_4 = doc.splitTextToSize(Rev_4, 400);
+				doc.text(497, 412, Rev_4);
+			}
 
 			var Rev_5 = currentSection.entries[4].response;
-			Rev_5 = doc.splitTextToSize(Rev_5, 400);
-			doc.text(497, 467, Rev_5);
+			if(Rev_5 != null){
+				Rev_5 = doc.splitTextToSize(Rev_5, 400);
+				doc.text(497, 467, Rev_5);
+			}
 
 			var Rev_6 = currentSection.entries[5].response;
-			Rev_6 = doc.splitTextToSize(Rev_6, 400);
-			doc.text(497, 521, Rev_6);
+			if(Rev_6 != null){
+				Rev_6 = doc.splitTextToSize(Rev_6, 400);
+				doc.text(497, 521, Rev_6);
+			}
 
 			var Rev_7 = currentSection.entries[6].response;
-			Rev_7 = doc.splitTextToSize(Rev_7, 400);
-			doc.text(497, 575, Rev_7);
+			if(Rev_7 != null){
+				Rev_7 = doc.splitTextToSize(Rev_7, 400);
+				doc.text(497, 575, Rev_7);
+			}
 
 			var Rev_8 = currentSection.entries[7].response;
-			Rev_8 = doc.splitTextToSize(Rev_8, 400);
-			doc.text(497, 630, Rev_8);
+			if(Rev_8 != null){
+				Rev_8 = doc.splitTextToSize(Rev_8, 400);
+				doc.text(497, 630, Rev_8);
+			}
 
 		} else if(currentSection.title == 'Networking' ){
 			
@@ -226,27 +242,36 @@ window.CreateBookView = function() {
 			doc.setFontSize(8);
 
 			var P4_Networking_1 = currentSection.entries[0].response;
-			P4_Networking_1 = doc.splitTextToSize(P4_Networking_1, 360);
-			doc.text(218, 91, P4_Networking_1);
+			if(P4_Networking_1 != null){
+				P4_Networking_1 = doc.splitTextToSize(P4_Networking_1, 360);
+				doc.text(218, 91, P4_Networking_1);
+			}
 			
 
 			var P4_Networking_2_1 = currentSection.entries[1].response;
-			P4_Networking_2_1 = doc.splitTextToSize(P4_Networking_2_1, 170);
-			doc.text(218, 140, P4_Networking_2_1);
+			if(P4_Networking_2_1 != null){
+				P4_Networking_2_1 = doc.splitTextToSize(P4_Networking_2_1, 170);
+				doc.text(218, 140, P4_Networking_2_1);
+			}
 
 			
 			var P4_Networking_2_2 = currentSection.entries[2].response;
-			P4_Networking_2_2 = doc.splitTextToSize(P4_Networking_2_2, 170);
-			doc.text(406, 140, P4_Networking_2_2);
-
+			if(P4_Networking_2_2 != null){
+				P4_Networking_2_2 = doc.splitTextToSize(P4_Networking_2_2, 170);
+				doc.text(406, 140, P4_Networking_2_2);
+			}
 
 			var P4_Networking_3 = currentSection.entries[3].response;
-			P4_Networking_3 = doc.splitTextToSize(P4_Networking_3, 360);
-			doc.text(218, 270, P4_Networking_3);
+			if(P4_Networking_3 != null){
+				P4_Networking_3 = doc.splitTextToSize(P4_Networking_3, 360);
+				doc.text(218, 270, P4_Networking_3);
+			}
 
 			var P4_Networking_4 = currentSection.entries[4].response;
-			P4_Networking_4 = doc.splitTextToSize(P4_Networking_4, 360);
-			doc.text(218, 348, P4_Networking_4);
+			if(P4_Networking_4 != null){
+				P4_Networking_4 = doc.splitTextToSize(P4_Networking_4, 360);
+				doc.text(218, 348, P4_Networking_4);
+			}
 
 		} else if(currentSection.title == 'Preparation' ){
 
@@ -255,16 +280,22 @@ window.CreateBookView = function() {
 
 			// PAGE 4 part 2
 			var P4_Preparation_1 = currentSection.entries[0].response;
-			P4_Preparation_1 = doc.splitTextToSize(P4_Preparation_1, 360);
-			doc.text(218, 443, P4_Preparation_1);
+			if(P4_Preparation_1 != null){
+				P4_Preparation_1 = doc.splitTextToSize(P4_Preparation_1, 360);
+				doc.text(218, 443, P4_Preparation_1);
+			}
 
 			var P4_Preparation_2 = currentSection.entries[1].response;
-			P4_Preparation_2 = doc.splitTextToSize(P4_Preparation_2, 360);
-			doc.text(218, 510, P4_Preparation_2);
+			if(P4_Preparation_2 != null){
+				P4_Preparation_2 = doc.splitTextToSize(P4_Preparation_2, 360);
+				doc.text(218, 510, P4_Preparation_2);
+			}
 
 			var P4_Preparation_3 = currentSection.entries[2].response;
-			P4_Preparation_3 = doc.splitTextToSize(P4_Preparation_3, 360);
-			doc.text(218, 630, P4_Preparation_3);
+			if(P4_Preparation_3 != null){
+				P4_Preparation_3 = doc.splitTextToSize(P4_Preparation_3, 360);
+				doc.text(218, 630, P4_Preparation_3);
+			}
 
 		} else if(currentSection.title == 'Your 3 strongest competencies' ){
 
@@ -273,16 +304,22 @@ window.CreateBookView = function() {
 
 			// PAGE 5
 			var P5_Response_1 = currentSection.entries[0].response;
-			P5_Response_1 = doc.splitTextToSize(P5_Response_1, 400);
-			doc.text(145, 145, P5_Response_1);
+			if(P5_Response_1 != null){
+				P5_Response_1 = doc.splitTextToSize(P5_Response_1, 400);
+				doc.text(145, 145, P5_Response_1);
+			}
 
 			var P5_Response_2 = currentSection.entries[1].response;
-			P5_Response_2 = doc.splitTextToSize(P5_Response_2, 400);
-			doc.text(145, 230, P5_Response_2);
+			if(P5_Response_2 != null){
+				P5_Response_2 = doc.splitTextToSize(P5_Response_2, 400);
+				doc.text(145, 230, P5_Response_2);
+			}
 
 			var P5_Response_3 = currentSection.entries[2].response;
-			P5_Response_3 = doc.splitTextToSize(P5_Response_3, 400);
-			doc.text(145, 312, P5_Response_3);
+			if(P5_Response_3 != null){
+				P5_Response_3 = doc.splitTextToSize(P5_Response_3, 400);
+				doc.text(145, 312, P5_Response_3);
+			}
 
 		} else if(currentSection.title == "Daniel's therapy journey-Part I" ){
 
@@ -291,28 +328,40 @@ window.CreateBookView = function() {
 
 			// PAGE 9
 			var P9_Response_1 = currentSection.entries[0].response;
-			P9_Response_1 = doc.splitTextToSize(P9_Response_1, 160);
-			doc.text(272, 338, P9_Response_1);
+			if(P9_Response_1 != null){
+				P9_Response_1 = doc.splitTextToSize(P9_Response_1, 160);
+				doc.text(272, 338, P9_Response_1);
+			}
 
 			var P9_Response_2 = currentSection.entries[1].response;
-			P9_Response_2 = doc.splitTextToSize(P9_Response_2, 530);
-			doc.text(37, 360, P9_Response_2);
+			if(P9_Response_2 != null){
+				P9_Response_2 = doc.splitTextToSize(P9_Response_2, 530);
+				doc.text(37, 360, P9_Response_2);
+			}
 
 			var P9_Response_3 = currentSection.entries[2].response;
-			P9_Response_3 = doc.splitTextToSize(P9_Response_3, 160);
-			doc.text(272, 458, P9_Response_3);
+			if(P9_Response_3 != null){
+				P9_Response_3 = doc.splitTextToSize(P9_Response_3, 160);
+				doc.text(272, 458, P9_Response_3);
+			}
 
 			var P9_Response_4 = currentSection.entries[3].response;
-			P9_Response_4 = doc.splitTextToSize(P9_Response_4, 530);
-			doc.text(37, 480, P9_Response_4);
+			if(P9_Response_4 != null){
+				P9_Response_4 = doc.splitTextToSize(P9_Response_4, 530);
+				doc.text(37, 480, P9_Response_4);
+			}
 
 			var P9_Response_5 = currentSection.entries[4].response;
-			P9_Response_5 = doc.splitTextToSize(P9_Response_5, 160);
-			doc.text(272, 578, P9_Response_5);
+			if(P9_Response_5 != null){
+				P9_Response_5 = doc.splitTextToSize(P9_Response_5, 160);
+				doc.text(272, 578, P9_Response_5);
+			}
 
 			var P9_Response_6 = currentSection.entries[5].response;
-			P9_Response_6 = doc.splitTextToSize(P9_Response_6, 530);
-			doc.text(37, 602, P9_Response_6);
+			if(P9_Response_6 != null){
+				P9_Response_6 = doc.splitTextToSize(P9_Response_6, 530);
+				doc.text(37, 602, P9_Response_6);
+			}
 
 		} else if(currentSection.title == "Daniel's therapy journey-Part II" ){
 
@@ -321,20 +370,28 @@ window.CreateBookView = function() {
 
 			// PAGE 10
 			var P10_Response_1 = currentSection.entries[0].response;
-			P10_Response_1 = doc.splitTextToSize(P10_Response_1, 160);
-			doc.text(272, 292, P10_Response_1);
+			if(P10_Response_1 != null){
+				P10_Response_1 = doc.splitTextToSize(P10_Response_1, 160);
+				doc.text(272, 292, P10_Response_1);
+			}
 
 			var P10_Response_2 = currentSection.entries[1].response;
-			P10_Response_2 = doc.splitTextToSize(P10_Response_2, 530);
-			doc.text(37, 316, P10_Response_2);
+			if(P10_Response_2 != null){
+				P10_Response_2 = doc.splitTextToSize(P10_Response_2, 530);
+				doc.text(37, 316, P10_Response_2);
+			}
 
 			var P10_Response_3 = currentSection.entries[2].response;
-			P10_Response_3 = doc.splitTextToSize(P10_Response_3, 160);
-			doc.text(272, 412, P10_Response_3);
+			if(P10_Response_3 != null){
+				P10_Response_3 = doc.splitTextToSize(P10_Response_3, 160);
+				doc.text(272, 412, P10_Response_3);
+			}
 
 			var P10_Response_4 = currentSection.entries[3].response;
-			P10_Response_4 = doc.splitTextToSize(P10_Response_4, 530);
-			doc.text(37, 437, P10_Response_4);
+			if(P10_Response_4 != null){
+				P10_Response_4 = doc.splitTextToSize(P10_Response_4, 530);
+				doc.text(37, 437, P10_Response_4);
+			}
 
 		} else if(currentSection.title == "Daniel's therapy journey-Part III" ){
 
@@ -343,20 +400,28 @@ window.CreateBookView = function() {
 
 			// PAGE 10
 			var P11_Response_1 = currentSection.entries[0].response;
-			P11_Response_1 = doc.splitTextToSize(P11_Response_1, 160);
-			doc.text(272, 292, P11_Response_1);
+			if(P11_Response_1 != null){
+				P11_Response_1 = doc.splitTextToSize(P11_Response_1, 160);
+				doc.text(272, 292, P11_Response_1);
+			}
 
 			var P11_Response_2 = currentSection.entries[1].response;
-			P11_Response_2 = doc.splitTextToSize(P11_Response_2, 530);
-			doc.text(37, 316, P11_Response_2);
+			if(P11_Response_2 != null){
+				P11_Response_2 = doc.splitTextToSize(P11_Response_2, 530);
+				doc.text(37, 316, P11_Response_2);
+			}
 
 			var P11_Response_3 = currentSection.entries[2].response;
-			P11_Response_3 = doc.splitTextToSize(P11_Response_3, 160);
-			doc.text(272, 412, P11_Response_3);
+			if(P11_Response_3 != null){
+				P11_Response_3 = doc.splitTextToSize(P11_Response_3, 160);
+				doc.text(272, 412, P11_Response_3);
+			}
 
 			var P11_Response_4 = currentSection.entries[3].response;
-			P11_Response_4 = doc.splitTextToSize(P11_Response_4, 530);
-			doc.text(37, 437, P11_Response_4);
+			if(P11_Response_4 != null){
+				P11_Response_4 = doc.splitTextToSize(P11_Response_4, 530);
+				doc.text(37, 437, P11_Response_4);
+			}
 
 		} else if(currentSection.title == "Scenario summary and reflection" ){
 
@@ -430,12 +495,16 @@ window.CreateBookView = function() {
 			}
 			
 			var P12_Response_1 = currentSection.entries[0].response;
-			P12_Response_1 = doc.splitTextToSize(P12_Response_1, 360);
-			doc.text(220, 305, P12_Response_1);
+			if(P12_Response_1 != null){
+				P12_Response_1 = doc.splitTextToSize(P12_Response_1, 360);
+				doc.text(220, 305, P12_Response_1);
+			}
 
 			var P12_Response_2 = currentSection.entries[1].response;
-			P12_Response_2 = doc.splitTextToSize(P12_Response_2, 360);
-			doc.text(220, 428, P12_Response_2);
+			if(P12_Response_2 != null){
+				P12_Response_2 = doc.splitTextToSize(P12_Response_2, 360);
+				doc.text(220, 428, P12_Response_2);
+			}
 
 		} else if(currentSection.title == "Practical strategies you can use in your role" ){
 
@@ -444,16 +513,22 @@ window.CreateBookView = function() {
 
 			// PAGE 5
 			var P13_Response_1 = currentSection.entries[0].response;
-			P13_Response_1 = doc.splitTextToSize(P13_Response_1, 420);
-			doc.text(145, 157, P13_Response_1);
+			if(P13_Response_1 != null){
+				P13_Response_1 = doc.splitTextToSize(P13_Response_1, 420);
+				doc.text(145, 157, P13_Response_1);
+			}
 
 			var P13_Response_2 = currentSection.entries[1].response;
-			P13_Response_2 = doc.splitTextToSize(P13_Response_2, 420);
-			doc.text(145, 237, P13_Response_2);
+			if(P13_Response_2 != null){
+				P13_Response_2 = doc.splitTextToSize(P13_Response_2, 420);
+				doc.text(145, 237, P13_Response_2);
+			}
 
 			var P13_Response_3 = currentSection.entries[2].response;
-			P13_Response_3 = doc.splitTextToSize(P13_Response_3, 420);
-			doc.text(145, 317, P13_Response_3);
+			if(P13_Response_3 != null){
+				P13_Response_3 = doc.splitTextToSize(P13_Response_3, 420);
+				doc.text(145, 317, P13_Response_3);
+			}
 
 		} else if(currentSection.title == "Competencies to further develop" ){
 
@@ -461,45 +536,64 @@ window.CreateBookView = function() {
 			doc.setFontSize(8);
 
 			var P14_Response_1 = currentSection.entries[0].response;
-			P14_Response_1 = doc.splitTextToSize(P14_Response_1, 420);
-			doc.text(145, 432, P14_Response_1);
+			if(P14_Response_1 != null){
+				P14_Response_1 = doc.splitTextToSize(P14_Response_1, 420);
+				doc.text(145, 432, P14_Response_1);
+			}
 
 			var P14_Response_2 = currentSection.entries[1].response;
-			P13_Response_2 = doc.splitTextToSize(P14_Response_2, 120);
-			doc.text(45, 565, P14_Response_2);
+			if(P14_Response_2 != null){
+				P13_Response_2 = doc.splitTextToSize(P14_Response_2, 120);
+				doc.text(45, 565, P14_Response_2);
+			}
 
 			var P14_Response_3 = currentSection.entries[2].response;
-			P14_Response_3 = doc.splitTextToSize(P14_Response_3, 120);
-			doc.text(182, 542, P14_Response_3);
-			
+			if(P14_Response_3 != null){
+				P14_Response_3 = doc.splitTextToSize(P14_Response_3, 120);
+				doc.text(182, 542, P14_Response_3);
+			}
+
 			var P14_Response_4 = currentSection.entries[3].response;
-			P14_Response_4 = doc.splitTextToSize(P14_Response_4, 255);
-			doc.text(315, 542, P14_Response_4);
+			if(P14_Response_4 != null){
+				P14_Response_4 = doc.splitTextToSize(P14_Response_4, 255);
+				doc.text(315, 542, P14_Response_4);
+			}
 
 			var P14_Response_5 = currentSection.entries[4].response;
-			P14_Response_5 = doc.splitTextToSize(P14_Response_5, 120);
-			doc.text(45, 630, P14_Response_5);
+			if(P14_Response_5 != null){
+				P14_Response_5 = doc.splitTextToSize(P14_Response_5, 120);
+				doc.text(45, 630, P14_Response_5);
+			}
 
 			var P14_Response_6 = currentSection.entries[5].response;
-			P14_Response_6 = doc.splitTextToSize(P14_Response_6, 120);
-			doc.text(182, 610, P14_Response_6);
+			if(P14_Response_6 != null){
+				P14_Response_6 = doc.splitTextToSize(P14_Response_6, 120);
+				doc.text(182, 610, P14_Response_6);
+			}
 
 			var P14_Response_7 = currentSection.entries[6].response;
-			P14_Response_7 = doc.splitTextToSize(P14_Response_7, 255);
-			doc.text(315, 610, P14_Response_7);
+			if(P14_Response_7 != null){
+				P14_Response_7 = doc.splitTextToSize(P14_Response_7, 255);
+				doc.text(315, 610, P14_Response_7);
+			}
 
 			var P14_Response_8 = currentSection.entries[7].response;
-			P14_Response_8 = doc.splitTextToSize(P14_Response_8, 120);
-			doc.text(45, 695, P14_Response_8);
+			if(P14_Response_8 != null){
+				P14_Response_8 = doc.splitTextToSize(P14_Response_8, 120);
+				doc.text(45, 695, P14_Response_8);
+			}
 
 			var P14_Response_9 = currentSection.entries[8].response;
-			P14_Response_9 = doc.splitTextToSize(P14_Response_9, 120);
-			doc.text(182, 676, P14_Response_9);
+			if(P14_Response_9 != null){
+				P14_Response_9 = doc.splitTextToSize(P14_Response_9, 120);
+				doc.text(182, 676, P14_Response_9);
+			}
 
 			P14_Response_10 = currentSection.entries[9].response;
-			P14_Response_10 = doc.splitTextToSize(P14_Response_10, 255);
-			doc.text(315, 676, P14_Response_10);
-
+			if(P14_Response_10 != null){
+				P14_Response_10 = doc.splitTextToSize(P14_Response_10, 255);
+				doc.text(315, 676, P14_Response_10);
+			}
 
 		}
 
