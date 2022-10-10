@@ -14,7 +14,7 @@
 .cover__details-content-section p:nth-child(7)>span {
   font-size: 0;
 }
-.cover__details-content-section p:nth-child(7)>span::before {
+/* .cover__details-content-section p:nth-child(7)>span::before {
   content: "";
   background: #590351;
   width: 40px;
@@ -30,7 +30,7 @@
   display: inline-block;
   vertical-align: bottom;
   margin-left: 7px;
-}
+} */
 
 /* set the background color of journal entries */ 
 .journalentry-container{
